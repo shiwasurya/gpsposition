@@ -4,8 +4,8 @@
 
 <p id="demo">Click the button to get your position.</p>
 
-<button onclick="getLocation()">Try It</button>
-
+<button onClick="getLocation()">Try It</button>
+<p id="demo"></p>
 <div id="mapholder"></div>
 
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -23,6 +23,7 @@ function getLocation() {
 function showPosition(position) {
     lat = position.coords.latitude;
     lon = position.coords.longitude;
+	document.getElementById("demo").innerHTML="Latitude: "+lat+"<br/>Longitude: "+lon;
     latlon = new google.maps.LatLng(lat, lon)
     mapholder = document.getElementById('mapholder')
     mapholder.style.height = '250px';
