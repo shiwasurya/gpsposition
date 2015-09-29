@@ -268,6 +268,28 @@ select {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+.form-sec input[type="button"] {
+    background:#8dcb18;
+    color: #FFF;
+    border: none;
+    font-size:0.9em;
+    font-weight: 400;
+    padding: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+	margin-top:1em;
+    outline: none;
+	display:inline-block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
 .form-sec textarea {
     resize: none;
     height: 120px;
@@ -400,6 +422,9 @@ select {
     transition: all 0.5s ease 0s;
     width: 100%;}
 .maplnk a{text-align:center; color:#FFF; padding-left:40%;}	
+.hmbtn{width:42%; float:left;  background: #8dcb18 none repeat scroll 0 0; border-radius: 5px; padding:36px 8px; text-align:center; }
+.hmbtn a{color:#FFF;}
+.lft{margin-right:25px;}
 /*--responsive--*/
 @media (max-width: 1440px){
 .form-sec input[type="text"],.form-sec input[type="password"] {
