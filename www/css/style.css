@@ -422,7 +422,7 @@ select {
     transition: all 0.5s ease 0s;
     width: 100%;}
 .maplnk a{text-align:center; color:#FFF; padding-left:40%;}	
-.hmbtn{width:40%; float:left;  background: #8dcb18 none repeat scroll 0 0; border-radius: 5px; padding:36px 8px; text-align:center; }
+.hmbtn{width:38%; float:left;  background: #8dcb18 none repeat scroll 0 0; border-radius: 5px; padding:36px 8px; text-align:center; }
 .hmbtn a{color:#FFF;}
 .lft{margin-right:25px;}
 /*--responsive--*/
@@ -563,6 +563,7 @@ select {
 .copywrite p {
     font-size: .8em;
 }
+.hmbtn{width:35%; float:left; padding:26px 8px; }
 }
 @media(max-width:320px){
 .form-sec {
@@ -614,4 +615,5 @@ select{
     right: 11%;
     top: 65%;
 }
+.hmbtn{width:35%; float:left; padding:26px 8px; }
 }
